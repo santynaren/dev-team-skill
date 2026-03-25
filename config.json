@@ -1,0 +1,9 @@
+{
+  "jira": {
+    "baseUrl": "https://demo.atlassian.net",
+    "projectKey": "DEMO"
+  },
+  "github": {
+    "repo": "demo-team/demo-app"
+  }
+}

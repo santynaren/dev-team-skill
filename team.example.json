@@ -1,0 +1,24 @@
+{
+  "lead": {
+    "name": "Team Lead",
+    "jiraAccountId": "abc123",
+    "githubUsername": "lead-username"
+  },
+  "members": [
+    {
+      "name": "Developer 1",
+      "jiraAccountId": "def456",
+      "githubUsername": "dev1-username"
+    },
+    {
+      "name": "Developer 2",
+      "jiraAccountId": "ghi789",
+      "githubUsername": "dev2-username"
+    },
+    {
+      "name": "Developer 3",
+      "jiraAccountId": "jkl012",
+      "githubUsername": "dev3-username"
+    }
+  ]
+}

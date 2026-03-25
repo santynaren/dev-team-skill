@@ -1,0 +1,60 @@
+{
+  "id": "10101",
+  "key": "DEMO-101",
+  "self": "https://demo.atlassian.net/rest/api/3/issue/10101",
+  "fields": {
+    "summary": "Set up JWT authentication middleware",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Dev Notes" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "text", "text": "Files to modify:" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/middleware/auth.ts" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/utils/jwt.ts" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/types/auth.ts" }] }] }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Action Plan" }]
+        },
+        {
+          "type": "orderedList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Create JWT utility functions (sign, verify, decode)" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Create auth middleware that extracts and validates token" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Add TypeScript types for auth payloads" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Export middleware for use in routes" }] }] }
+          ]
+        }
+      ]
+    },
+    "status": {
+      "name": "Done",
+      "statusCategory": { "name": "Done" }
+    },
+    "issuetype": {
+      "name": "Sub-task",
+      "subtask": true
+    },
+    "parent": {
+      "key": "DEMO-100"
+    },
+    "assignee": {
+      "accountId": "alice-001",
+      "displayName": "Alice Chen"
+    }
+  }
+}

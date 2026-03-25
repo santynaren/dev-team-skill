@@ -1,0 +1,9 @@
+{
+  "jira": {
+    "baseUrl": "https://yourcompany.atlassian.net",
+    "projectKey": "PROJ"
+  },
+  "github": {
+    "repo": "org/repo-name"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "total": 4,
+  "issues": [
+    {
+      "key": "DEMO-101",
+      "fields": {
+        "summary": "Set up JWT authentication middleware",
+        "status": { "name": "Done" },
+        "assignee": { "accountId": "alice-001", "displayName": "Alice Chen" }
+      }
+    },
+    {
+      "key": "DEMO-102",
+      "fields": {
+        "summary": "Create login/logout API endpoints",
+        "status": { "name": "In Progress" },
+        "assignee": { "accountId": "bob-002", "displayName": "Bob Martinez" }
+      }
+    },
+    {
+      "key": "DEMO-103",
+      "fields": {
+        "summary": "Add protected route wrapper",
+        "status": { "name": "To Do" },
+        "assignee": { "accountId": "carol-003", "displayName": "Carol Singh" }
+      }
+    },
+    {
+      "key": "DEMO-104",
+      "fields": {
+        "summary": "Write authentication tests",
+        "status": { "name": "To Do" },
+        "assignee": { "accountId": "dan-004", "displayName": "Dan Kim" }
+      }
+    }
+  ]
+}

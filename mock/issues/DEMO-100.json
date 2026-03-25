@@ -1,0 +1,74 @@
+{
+  "id": "10100",
+  "key": "DEMO-100",
+  "self": "https://demo.atlassian.net/rest/api/3/issue/10100",
+  "fields": {
+    "summary": "Add user authentication to the API",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Implement JWT-based authentication for the REST API. Users should be able to login with email/password and receive a token for subsequent requests."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Acceptance Criteria" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "POST /api/auth/login accepts email and password" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Returns JWT token on successful authentication" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "POST /api/auth/logout invalidates the token" }] }]
+            },
+            {
+              "type": "listItem",
+              "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Protected routes return 401 without valid token" }] }]
+            }
+          ]
+        }
+      ]
+    },
+    "status": {
+      "name": "In Progress",
+      "statusCategory": { "name": "In Progress" }
+    },
+    "issuetype": {
+      "name": "Story",
+      "subtask": false
+    },
+    "priority": {
+      "name": "High"
+    },
+    "assignee": {
+      "accountId": "alice-001",
+      "displayName": "Alice Chen"
+    },
+    "reporter": {
+      "accountId": "pm-001",
+      "displayName": "Product Manager"
+    },
+    "subtasks": [
+      { "key": "DEMO-101", "fields": { "summary": "Set up JWT authentication middleware", "status": { "name": "Done" } } },
+      { "key": "DEMO-102", "fields": { "summary": "Create login/logout API endpoints", "status": { "name": "In Progress" } } },
+      { "key": "DEMO-103", "fields": { "summary": "Add protected route wrapper", "status": { "name": "To Do" } } },
+      { "key": "DEMO-104", "fields": { "summary": "Write authentication tests", "status": { "name": "To Do" } } }
+    ]
+  }
+}

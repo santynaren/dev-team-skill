@@ -1,0 +1,61 @@
+{
+  "id": "10102",
+  "key": "DEMO-102",
+  "self": "https://demo.atlassian.net/rest/api/3/issue/10102",
+  "fields": {
+    "summary": "Create login/logout API endpoints",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Dev Notes" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "text", "text": "Files to modify:" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/routes/auth.ts" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/services/auth.service.ts" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/validators/auth.validator.ts" }] }] }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Action Plan" }]
+        },
+        {
+          "type": "orderedList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Create auth service with login/logout logic" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Add input validation for login request" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Create POST /api/auth/login route" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Create POST /api/auth/logout route" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Wire up routes to main app" }] }] }
+          ]
+        }
+      ]
+    },
+    "status": {
+      "name": "In Progress",
+      "statusCategory": { "name": "In Progress" }
+    },
+    "issuetype": {
+      "name": "Sub-task",
+      "subtask": true
+    },
+    "parent": {
+      "key": "DEMO-100"
+    },
+    "assignee": {
+      "accountId": "bob-002",
+      "displayName": "Bob Martinez"
+    }
+  }
+}

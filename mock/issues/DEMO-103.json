@@ -1,0 +1,60 @@
+{
+  "id": "10103",
+  "key": "DEMO-103",
+  "self": "https://demo.atlassian.net/rest/api/3/issue/10103",
+  "fields": {
+    "summary": "Add protected route wrapper",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Dev Notes" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "text", "text": "Files to modify:" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/components/ProtectedRoute.tsx" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/hooks/useAuth.ts" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/context/AuthContext.tsx" }] }] }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Action Plan" }]
+        },
+        {
+          "type": "orderedList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Create AuthContext for managing auth state" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Create useAuth hook for components" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Create ProtectedRoute wrapper component" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Redirect to login if not authenticated" }] }] }
+          ]
+        }
+      ]
+    },
+    "status": {
+      "name": "To Do",
+      "statusCategory": { "name": "To Do" }
+    },
+    "issuetype": {
+      "name": "Sub-task",
+      "subtask": true
+    },
+    "parent": {
+      "key": "DEMO-100"
+    },
+    "assignee": {
+      "accountId": "carol-003",
+      "displayName": "Carol Singh"
+    }
+  }
+}

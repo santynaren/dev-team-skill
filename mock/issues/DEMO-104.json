@@ -1,0 +1,59 @@
+{
+  "id": "10104",
+  "key": "DEMO-104",
+  "self": "https://demo.atlassian.net/rest/api/3/issue/10104",
+  "fields": {
+    "summary": "Write authentication tests",
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Dev Notes" }]
+        },
+        {
+          "type": "paragraph",
+          "content": [{ "type": "text", "text": "Files to modify:" }]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "src/tests/auth.test.ts" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "e2e/auth.spec.ts" }] }] }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": { "level": 2 },
+          "content": [{ "type": "text", "text": "Action Plan" }]
+        },
+        {
+          "type": "orderedList",
+          "content": [
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Write unit tests for JWT utilities" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Write unit tests for auth middleware" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Write integration tests for login/logout endpoints" }] }] },
+            { "type": "listItem", "content": [{ "type": "paragraph", "content": [{ "type": "text", "text": "Write e2e tests for auth flow" }] }] }
+          ]
+        }
+      ]
+    },
+    "status": {
+      "name": "To Do",
+      "statusCategory": { "name": "To Do" }
+    },
+    "issuetype": {
+      "name": "Sub-task",
+      "subtask": true
+    },
+    "parent": {
+      "key": "DEMO-100"
+    },
+    "assignee": {
+      "accountId": "dan-004",
+      "displayName": "Dan Kim"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "lead": {
+    "name": "Alice Chen",
+    "jiraAccountId": "alice-001",
+    "githubUsername": "alicechen"
+  },
+  "members": [
+    {
+      "name": "Bob Martinez",
+      "jiraAccountId": "bob-002",
+      "githubUsername": "bobmartinez"
+    },
+    {
+      "name": "Carol Singh",
+      "jiraAccountId": "carol-003",
+      "githubUsername": "carolsingh"
+    },
+    {
+      "name": "Dan Kim",
+      "jiraAccountId": "dan-004",
+      "githubUsername": "dankim"
+    }
+  ]
+}
